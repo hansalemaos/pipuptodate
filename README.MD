@@ -26,8 +26,8 @@ update_pip_packages(
 
 # If something went wrong, you can install the previous versions:
 restore_old_packages(
-    requirementstxt="c:\\myupdatefolder21\backup\requirementsbackup.txt",  # created when you executed: update_pip_packages(...backuppackages=True)
-    folder="c:\\myupdatefolder21\backup",  # the downloaded wheels
+    requirementstxt="c:\\myupdatefolder21\\backup\\requirementsbackup.txt",  # created when you executed: update_pip_packages(...backuppackages=True)
+    folder="c:\\myupdatefolder21\\backup",  # the downloaded wheels
 
 
 ```
